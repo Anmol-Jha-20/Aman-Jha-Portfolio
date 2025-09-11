@@ -1,76 +1,57 @@
 // Skills Section Logo's
-import htmlLogo from "./assets/tech_logo/html.png";
-import cssLogo from "./assets/tech_logo/css.png";
-import javascriptLogo from "./assets/tech_logo/javascript.png";
-import reactjsLogo from "./assets/tech_logo/reactjs.png";
-import reduxLogo from "./assets/tech_logo/redux.png";
-import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
-import materialuiLogo from "./assets/tech_logo/materialui.png";
-import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
-import nodejsLogo from "./assets/tech_logo/nodejs.png";
-import expressjsLogo from "./assets/tech_logo/express.png";
-import mysqlLogo from "./assets/tech_logo/mysql.png";
-import mongodbLogo from "./assets/tech_logo/mongodb.png";
-import firebaseLogo from "./assets/tech_logo/firebase.png";
-import gitLogo from "./assets/tech_logo/git.png";
-import githubLogo from "./assets/tech_logo/github.png";
-import vscodeLogo from "./assets/tech_logo/vscode.png";
-import postmanLogo from "./assets/tech_logo/postman.png";
-import mcLogo from "./assets/tech_logo/mc.png";
-import netlifyLogo from "./assets/tech_logo/netlify.png";
-import vercelLogo from "./assets/tech_logo/vercel.png";
 
 // Education Section Logo's
 import logocol from "./assets/education_logo/logocol.png";
 import schoolLogo from "./assets/education_logo/schoolLogo.jpeg";
 
 // Project Section Logo's
-import Blog2 from "./assets/work_logo/Blog2.jpg";
-import EasyBazaar from "./assets/work_logo/EasyBazaar.jpg";
-import Luxenparis from "./assets/work_logo/luxenparis.jpg";
-import StrideFusion from "./assets/work_logo/Stridefusion.jpg";
-import BusWallah from "./assets/work_logo/BusWallah.jpg";
+import Blog2 from "./assets/work_logo/DressCode.png";
+import EasyBazaar from "./assets/work_logo/Zapchat.png";
+import Luxenparis from "./assets/work_logo/CamExpert.png";
+import StrideFusion from "./assets/work_logo/Gyantra.png";
+import BusWallah from "./assets/work_logo/ChatX.png";
+import Weatherly from "./assets/work_logo/Weatherly.png";
 
 export const SkillsInfo = [
   {
     title: "Programming & Architecture",
     skills: [
-      { name: "Java", logo: htmlLogo },
-      { name: "Kotlin", logo: cssLogo },
-      { name: "Kotlin Multiplatform (KMP)", logo: javascriptLogo },
-      { name: "Clean Architecture", logo: reactjsLogo },
-      { name: "MVVM Architecture", logo: reduxLogo },
-      { name: "Hilt (Dependency Injection)", logo: tailwindcssLogo },
+      { name: "Java" },
+      { name: "Kotlin" },
+      { name: "Kotlin Multiplatform (KMP)" },
+      { name: "Clean Architecture" },
+      { name: "MVVM Architecture" },
+      { name: "Hilt (Dependency Injection)" },
     ],
   },
   {
     title: "UI/UX Development",
     skills: [
-      { name: "Jetpack Compose", logo: nodejsLogo },
-      { name: "Material Design", logo: expressjsLogo },
-      { name: "Custom Views", logo: mysqlLogo },
-      { name: "Animations", logo: mongodbLogo },
-      { name: "Responsive Layouts", logo: firebaseLogo },
+      { name: "Jetpack Compose" },
+      { name: "Material Design" },
+      { name: "Custom Views" },
+      { name: "Animations" },
+      { name: "Responsive Layouts" },
     ],
   },
   {
     title: "Backend & Cloud",
     skills: [
-      { name: "Firebase", logo: gitLogo },
-      { name: "Retrofit (REST APIs)", logo: githubLogo },
-      { name: "Room Database", logo: vscodeLogo },
-      { name: "Agora SDK (Audio/Video Calls)", logo: postmanLogo },
+      { name: "Firebase" },
+      { name: "Retrofit (REST APIs)" },
+      { name: "Room Database" },
+      { name: "Agora SDK (Audio/Video Calls)" },
     ],
   },
   {
     title: "Tools & Libraries",
     skills: [
-      { name: "Android Studio", logo: gitLogo },
-      { name: "GitHub", logo: githubLogo },
-      { name: "Gradle", logo: vscodeLogo },
-      { name: "ExoPlayer", logo: postmanLogo },
-      { name: "Coil", logo: mcLogo },
-      { name: "Lottie", logo: vercelLogo },
+      { name: "Android Studio" },
+      { name: "GitHub" },
+      { name: "Gradle" },
+      { name: "ExoPlayer" },
+      { name: "Coil" },
+      { name: "Lottie" },
     ],
   },
 ];
@@ -105,51 +86,102 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "EasyBazaar",
+    title: "ZapChat – WhatsApp-Style Real-Time Chat App",
     description:
-      ": Developed a full-stack eCommerce web application focused on electronic products, offering a wide range of gadgets, appliances, and accessories at affordable prices. this platform allows users to register, log in, browse products, manage their shopping cart, and securely complete purchases.",
+      "A feature-rich chat application built with Jetpack Compose, Firebase Realtime Database, and Agora SDK, designed using MVVM, Hilt, and Clean Architecture. It supports real-time 1-1 messaging, audio/video calls, status updates, community management, OTP verification, profile customization, and responsive dark-themed UI with smooth animations.",
     image: EasyBazaar,
-    tags: ["React", "Node.js", "Express.js", "MongoDB", "Razorpay API"],
+    tags: [
+      "Jetpack Compose",
+      "Firebase Realtime Database",
+      "Agora SDK",
+      "MVVM",
+      "Hilt (DI)",
+      "Clean Architecture",
+      "Material 3",
+      "Kotlin",
+    ],
     github: "https://github.com/Anmol-Jha-20/easy-bazaar",
     webapp: "https://easy-bazaar-mvjv.vercel.app/",
   },
   {
     id: 1,
-    title: "BlogSphere",
+    title: "DressCode – Girls’ Fashion E-commerce App",
     description:
-      "Built a full-stack blog platform enabling users to create, read, update and delete blog posts with rich text formatting. ",
+      "A modern shopping app tailored for girls with seamless UI, secure payments, and Firebase-powered backend. It features product showcase with categories, wishlist & cart management, profile handling, push notifications (FCM), Google voice search, and online payments via Razorpay — all built with a clean, responsive design and dark theme support.",
     image: Blog2,
-    tags: ["React JS", "Tailwind CSS", "Appwrite"],
+    tags: [
+      "Jetpack Compose",
+      "Firebase",
+      "Razorpay SDK",
+      "MVVM",
+      "Material 3",
+      "Kotlin",
+    ],
     github: "https://github.com/Anmol-Jha-20/BlogSphere",
     webapp: "https://blog-sphere-livid.vercel.app/",
   },
   {
     id: 2,
-    title: "LuxenParis",
+    title: "CamXpert – Jetpack Compose Camera App",
     description:
-      "A website dedicated to offering a curated selection of premium perfumes. Designed for seamless user experience across mobile and desktop devices.",
+      "A modern camera app built with Jetpack Compose + CameraX supporting photo capture, video recording with countdown, gallery preview in bottom sheet, and smooth front/back camera toggle. Designed with animations and Material 3 for a seamless, intuitive experience.",
     image: Luxenparis,
-    tags: ["HTML", "CSS", "JavaScript"],
+    tags: [
+      "Jetpack Compose",
+      "CameraX",
+      "Kotlin Coroutines",
+      "Material 3",
+      "AndroidX Libraries",
+    ],
     github: "https://github.com/Anmol-Jha-20/Luxenparis",
     webapp: "https://luxenparis.com/",
   },
   {
     id: 3,
-    title: "Bus Wallah",
+    title: "ChatX – AI-Powered Chat Assistant",
     description:
-      "Developed a frontend UI for a bus ticket booking application using React.js and Tailwind CSS. Animated UI transitions for smooth page interactions using Framer Motion (A React Animation Library)",
+      "An AI chat app built with Jetpack Compose + Gemini API delivering real-time responses with a sleek and responsive UI. Features live typing indicators, Lottie animations, dark/light themes, timestamps, and context-aware replies for a smooth and modern chat experience.",
     image: BusWallah,
-    tags: ["React JS", "Tailwind CSS"],
+    tags: [
+      "Jetpack Compose",
+      "Kotlin",
+      "Gemini AI API",
+      "Material 3",
+      "Lottie",
+    ],
     github: "https://github.com/Anmol-Jha-20/Bus-wallah",
     webapp: "https://bus-wallah.vercel.app/",
   },
   {
     id: 4,
-    title: "stride-fusion",
+    title: "GYANTRA – Modern eBook Library App",
     description:
-      "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
+      "An elegant eBook library app built with Jetpack Compose + Firebase offering category-wise browsing, PDF reading with live page count, shimmer loading effects, dark mode, and responsive design. Designed with Clean Code Architecture (MVVM + Hilt) for a smooth and user-friendly reading experience.",
     image: StrideFusion,
-    tags: ["React JS", "Tailwind CSS", "Firebase"],
+    tags: [
+      "Jetpack Compose",
+      "Firebase",
+      "MVVM",
+      "Hilt",
+      "Clean Architecture",
+      "Material 3",
+    ],
+    github: "https://github.com/Anmol-Jha-20/Stride-fusion",
+    webapp: "https://stride-fusion-web.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "Weatherly – Kotlin Multiplatform Weather App",
+    description:
+      "A sleek weather app built with Kotlin Multiplatform + Jetpack Compose providing real-time updates, dark/light theme support, responsive layouts, and smooth Lottie animations. Designed for UI consistency and scalable architecture across all devices.",
+    image: Weatherly,
+    tags: [
+      "Kotlin",
+      "Multiplatform",
+      "Jetpack Compose",
+      "OpenWeather API",
+      "Lottie",
+    ],
     github: "https://github.com/Anmol-Jha-20/Stride-fusion",
     webapp: "https://stride-fusion-web.netlify.app/",
   },

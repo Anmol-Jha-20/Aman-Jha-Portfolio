@@ -1,5 +1,5 @@
 import React from "react";
-import { FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   const handleScroll = (sectionId) => {
@@ -12,7 +12,7 @@ function Footer() {
   return (
     <footer className="text-white py-8 px-[12vw] md:px-[7vw] lg:px-[20vw]">
       <div className="container mx-auto text-center">
-        <h2 className="text-xl font-semibold text-purple-500">Anmol Jha</h2>
+        <h2 className="text-xl font-semibold text-purple-500">Aman Jha</h2>
 
         {/* Navigation Links */}
         <nav className="flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4">
@@ -36,12 +36,12 @@ function Footer() {
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
             {
-              icon: <FaTwitter />,
-              link: "https://x.com/anmoljhadev",
+              icon: <FaGithub />,
+              link: "https://github.com/developeraj732",
             },
             {
               icon: <FaLinkedin />,
-              link: "https://www.linkedin.com/in/anmol-jha-a33b672ba",
+              link: "https://www.linkedin.com/in/aman-jha-007273317/",
             },
           ].map((item, index) => (
             <a
@@ -57,7 +57,7 @@ function Footer() {
 
         {/* Copyright Text */}
         <p className="text-sm text-gray-400 mt-6">
-          © 2025 Anmol Jha. All rights reserved.
+          © 2025 Aman Jha. All rights reserved.
         </p>
       </div>
     </footer>

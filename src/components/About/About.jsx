@@ -46,7 +46,7 @@ function About() {
           </p>
 
           <a
-            href="#"
+            href="https://drive.google.com/file/d/1HlivSVp99nl5yE3XM_gwhDKzqj-D6XoN/view?usp=sharing"
             target="_blank"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
             style={{

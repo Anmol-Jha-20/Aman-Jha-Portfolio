@@ -104,8 +104,11 @@ function Work() {
                 </div>
                 <div className="flex gap-4">
                   <a
-                    href={selectedProject.github}
-                    target="_blank"
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      alert("Access is Restricted");
+                    }}
                     className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
                     View Code
